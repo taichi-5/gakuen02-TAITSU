@@ -1,0 +1,48 @@
+body {
+    padding-top: 90px; /* ヘッダーの後ろに要素が隠れないようにするため */
+     
+        background-color: hsl(241, 62%, 51%);            /* 背景色 */
+        background-image: url("data:image/jpeg;base64,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"); /* 画像 */
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        margin: 0%;
+}
+header {
+    width: 100%; /* 幅いっぱいを指定 */
+    height: 50px; /* 高さを50pxに指定 */
+    background: #CCC; /* 背景色にグレーを指定 */
+    padding: 20px 50px; /* ヘッダーに上下左右それぞれ余白を指定 */
+    box-sizing: border-box; /* padding分を含んで幅を100%にするため */
+    position: fixed; /* ウィンドウを基準に画面に固定 */
+    top: 0; /* 上下の固定位置を上から0pxにする */
+    left: 0; /* 左右の固定位置を左から0pxにする */
+    display: flex; /* 中の要素を横並びにする */
+    align-items: center; /* 中の要素を上下中央に並べる */
+    z-index: 1;
+}
+
+header .gnav .menu {
+    display: flex; /* 中の要素を横並びにする */
+}
+
+header .gnav .menu li {
+    list-style: none; /* リストの[・]を消す */
+}
+
+header .gnav .menu li + li {
+    margin-left: 40px; /* メニューそれぞれに間隔をあけるため */
+}
+
+main {
+    height: 100vw; /* スクロールの演出を見れるようにmainに高さを指定 */
+}
+
+.質問{
+    width: 1000px;
+    height: 1000px;
+    text-align: center;
+    background-color: rgb(223, 221, 231);
+    
+}
