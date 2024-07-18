@@ -1,0 +1,11 @@
+/* まず、style.cssにこのルールを書き入れてください。 */
+body {
+    font-size: 250%;
+    
+      background-image: url("https://img.gifmagazine.net/gifmagazine/images/1665257/original.gif");
+  }
+
+  p{
+    color: rgb(226, 43, 220);
+    font-size: 50px;
+  }
